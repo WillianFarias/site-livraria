@@ -20,6 +20,10 @@
     align-items: center;
 }
 
+.container__botao {
+    display: none;
+}
+
 .conteiner__imagem {
     padding: 1rem;
 }
