@@ -30,6 +30,10 @@
     padding: 1em;
 }
 
+.card__estrelas {
+    margin-bottom: .5em;
+}
+
 .card__descricao {
     display: flex;
     justify-content: space-between;
