@@ -57,3 +57,42 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+.container__titulo, 
+.cabecalho__opcoes {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundario);
+        font-size: 30px;
+    }
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+
+    .cabecalho__opcoes {
+        display: flex;
+    }
+
+    .cabecalho__opcoes__item {
+        margin: 1em 2em 1em 1em;
+        text-transform: uppercase;
+    }
+
+    .cabecalho__opcoes__link {
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho__menu-amburguer,
+    .conteiner__imagem--transparente {
+        display: none;
+    }
+}
