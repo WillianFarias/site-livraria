@@ -95,4 +95,13 @@
     .conteiner__imagem--transparente {
         display: none;
     }
+
+    .cabecalho__opcoes__botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .cabecalho__opcoes__botao{
+        display: none;
+    }
 }
