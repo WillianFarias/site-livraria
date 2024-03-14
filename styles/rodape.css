@@ -2,7 +2,59 @@ hr {
     margin: 0;
 }
 
+.rodape {
+    background-color: var(--branco);
+}
+
 .rodape__titulo {
     padding: 1em 2em;
-    background-color: var(--branco);
+}
+
+.rodape__lista {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) { 
+
+    .rodape {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .rodape__titulo {
+        font-size: 24px;
+    }
+    
+    .rodape__lista {
+        display: flex;
+        padding: 2em 2em;
+    }
+
+    .rodape__lista__coluna {
+        margin-right: 4em;
+    }
+
+    .rodape__coluna__titulo {
+        font-size: 14px;
+        color: var(--cinza);
+        text-transform: uppercase;
+        margin-bottom: 1em;
+    }
+
+    .coluna__item {
+        display: flex;
+        margin-bottom: 0.5em;
+    }
+
+    .coluna__link {
+        text-decoration: none;
+        color: var(--cinza-secundario);
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .coluna__item__imagem {
+        padding-right: 1em;
+    }
 }
