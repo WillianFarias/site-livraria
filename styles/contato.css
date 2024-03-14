@@ -39,3 +39,24 @@
     background-position: 1em;
     color: var(--azul);
 }
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__descricao {
+        width: 30%;
+    }
+    
+    .contato__titulo {
+        font-size: 24px;
+    }
+    
+    .contato__cadastro-email {
+        width: 30%;
+        margin-left: 2em;
+    }
+}
