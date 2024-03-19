@@ -59,7 +59,8 @@
 }
 
 .container__titulo, 
-.cabecalho__opcoes {
+.cabecalho__opcoes,
+.container__botao-titulo {
     display: none;
 }
 
@@ -103,5 +104,26 @@
 
     .cabecalho__opcoes__botao{
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) { 
+    .cabecalho__opcoes {
+        margin-right: auto;
+    }
+
+    .container__link {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .container__botao-titulo {
+        display: block;
     }
 }

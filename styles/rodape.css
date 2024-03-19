@@ -28,10 +28,11 @@ hr {
     .rodape__lista {
         display: flex;
         padding: 2em 2em;
+        width: auto;
     }
 
     .rodape__lista__coluna {
-        margin-right: 4em;
+        margin-right: 10em;
     }
 
     .rodape__coluna__titulo {
@@ -56,5 +57,17 @@ hr {
 
     .coluna__item__imagem {
         padding-right: 1em;
+    }
+}
+
+@media screen and (min-width: 1728px) { 
+    .rodape__lista__coluna {
+        border-left: 1px solid var(--cinza-secundario);
+        padding-left: 1em;
+        margin-right: 20em;
+    }
+
+    .rodape {
+        padding: 3em 0;
     }
 }
